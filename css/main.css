@@ -4,7 +4,7 @@
   position: relative;
   margin: auto;
 
-
+}
   .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -20,10 +20,22 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+
+section img {
+  width: 45%;
+  background-color: blue;
 }
-img{
-  max-width: 100%;
+
+header {
+  background: ;
+  border-color: #0099CC;
+  border: 3px solid #0099CC;
+}
+nav li {
+  list-style-type: none;
+  text-align: center;
+}
+section{
+    text-align: center;
+    border: 3px solid green;
 }
