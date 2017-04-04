@@ -3,16 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title> </title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Muli:300i" rel="stylesheet">
     <link rel="stylesheet"  href="css/main.css">
+    <link rel="stylesheet"  href="css/responsive.css">
   </head>
   <body>
       <header>
         <h1> Lee-way </h1>
         <nav>
           <ul>
-            <li><a href ="index.html"> Home </a> </li>
-            <li> About </li>
-            <li> contact </li>
+            <li><a href ="index.html" class ="selected"> Home </a> </li>
+            <li><a href = "about.html"> About </a> </li>
+            <li><a href = "#"> Contact </a> </li>
           </ul>
         </nav>
       </header>
@@ -42,8 +44,9 @@
         setTimeout(carousel, 2000); // Change image every 2 seconds
     }
     </script>
-    <section class = "gallery">
-        <ul>
+    <section >
+      <h2> Gallery </h2>
+        <ul id = "gallery">
           <li>
             <a href="img/numbers-01.jpg">
               <img  src="images/Saraicartergr.jpg">
