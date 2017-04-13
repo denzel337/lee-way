@@ -1,20 +1,25 @@
 body {
  font-family: 'Muli', sans-serif;
 }
+header {
+
+}
 #gallery li {
   float: left;
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
+  text-align: center;
 }
-img {
+#gallery img {
   max-width: 100%;
 }
 #gallery {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 h1 {
@@ -26,38 +31,43 @@ h1 {
 }
 
 h2 {
-  font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
+  text-align: center;
 
 }
 header {
   background:#0099CC ;
   border: 3px solid #0099CC;
+  text-align: center;
 }
-nav {
+nav  {
   background:#0099CC;
   border: 3px solid  #CCFFCC;
-}
 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 nav li {
-  list-style-type: none;
-  text-align: center;
+  float: left;
+  display: block;
 }
 
 nav a {
   font-weight: 800;
   padding: 15px 10px;
+
 }
 
 nav a.selected, nav a:hover {
   color: #32673f;
 }
 
-section {
-    text-align: center;
-    border: 3px solid green;
-}
+
 
 footer {
   text-align: center;
@@ -68,7 +78,8 @@ footer {
   width: 100%;
   height: 100%;
   left:0;
-  position: absolute;
+  top:0;
+  position: fixed;
   display: none;
   text-align: center;
 }
@@ -88,13 +99,18 @@ body {
   margin: 0;
   padding: 0
 }
-
+.lee {
+  width: 100%;
+}
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
-
+  width: 100%;
+}
+.slideshow-container img{
+  height: 100%;
+  width: 100%;
+}
 }
   .fade {
     -webkit-animation-name: fade;
