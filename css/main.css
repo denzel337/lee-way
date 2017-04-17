@@ -1,8 +1,24 @@
 body {
  font-family: 'Muli', sans-serif;
 }
-header {
+.contact img {
+  width: 40%;
+  float: left;
+}
+.contact p {
 
+  display: block;
+}
+img { width: 100%;
+}
+h3 {
+  text-align: center;
+}
+.logo {
+  background-image: url('images/Saraiart1.jpg');
+  width: 200px;
+  height: 200px;
+  display: inline-block;
 }
 #gallery li {
   float: left;
@@ -12,9 +28,11 @@ header {
   color: #bdc3c7;
   text-align: center;
 }
+
 #gallery img {
   max-width: 100%;
 }
+
 #gallery {
   margin: 0;
   padding: 0;
@@ -34,24 +52,28 @@ h2 {
   margin: -5px 0 0;
   font-weight: normal;
   text-align: center;
-
 }
+
 header {
   background:#0099CC ;
   border: 3px solid #0099CC;
   text-align: center;
 }
+
 nav  {
   background:#0099CC;
   border: 3px solid  #CCFFCC;
 
 }
+
 ul {
     list-style-type: none;
+    text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 10px 0px 10px 550px;
     overflow: hidden;
 }
+
 nav li {
   float: left;
   display: block;
@@ -66,7 +88,6 @@ nav a {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
-
 
 
 footer {
@@ -110,6 +131,8 @@ body {
 .slideshow-container img{
   height: 100%;
   width: 100%;
+  margin-bottom: -159.526px;
+
 }
 }
   .fade {
