@@ -43,9 +43,10 @@ h3 {
 h1 {
   font-family: 'Marck Script', cursive;
   margin: 15px 0;
-  font-size: 1.5em;
+  font-size: 10em;
   font-weight: normal;
   line-height: 0.8em;
+  color: white;
 }
 
 h2 {
@@ -59,6 +60,8 @@ header {
   border: 3px solid #0099CC;
   text-align: center;
 }
+
+
 
 nav  {
   background:#0099CC;
