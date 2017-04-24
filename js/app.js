@@ -10,7 +10,7 @@ $("body").append($overlay);
 
 
 
-$("#gallery a").click(function(event){
+$("#gradgallery a").click(function(event){
   event.preventDefault();
   var imageLocation = $(this).attr("href");
   $image.attr("src", imageLocation);
