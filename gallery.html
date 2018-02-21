@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title> Gallery</title>
-    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Muli:300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet"  href="css/main.css">
     <link rel="stylesheet"  href="css/responsive.css">
@@ -12,11 +12,8 @@
   <body>
       <header>
 
-
         <nav>
           <ul>
-            <h1> Lee-Way <br>
-                  Photography </h1>
             <li><a href ="index.html"> Home </a> </li>
             <li><a href = "gallery.html" class ="selected"> Gallery </a> </li>
             <li><a href = "about.html"> About </a> </li>
@@ -29,31 +26,42 @@
       <h2> Gallery </h2>
         <ul id = "gallery">
           <li>
-            <a href="grad_gallery.html">
-              <img  src="images/bsu_group.jpg">
-              <p> Students Orgs.</p>
+
+              <a href="grad_gallery.html">
+                <div class = "menu_pics">
+                  <img  src="images/bsu_group.jpg"/>
+                  <i class="fa fa-camera"></i>
+                  <p> Students Orgs.</p>
+
+                </div>
               </a>
           </li>
 
           <li>
               <a href="grad_gallery.html">
-              <img  src="images/torrence.jpg" alt ="Yesting">
-              <p> Graduation</p>
+                <div class = "menu_pics">
+                  <img  src="images/torrence.jpg" alt ="Yesting">
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  <p> Graduation Gallery</p>
+                </div>
             </a>
           </li>
 
           <li>
+              <div class = "menu_pics">
+                <img  src="images/fly_fashion.jpg" alt ="Sarai">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <p> Fashion Show Gallery</p>
+              </div>
 
-              <img  src="images/fly_fashion.jpg" alt ="Sarai">
-              <p> Fashion Show</p>
-            </a>
           </li>
 
           <li>
-
+            <div class = "menu_pics">
               <img  src="images/band.jpg">
-              <p> Parade</p>
-            </a>
+              <p> Parade Gallery</p>
+            </div>
+
           </li>
         </ul>
 

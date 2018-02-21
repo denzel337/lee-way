@@ -1,3 +1,5 @@
+
+
 var $overlay = $('<div id ="overlay"></div');
 var $image = $("<img>");
 var $caption = $("<p></p>");
@@ -25,6 +27,12 @@ $caption.text(captionText);
 $overlay.click(function(){
 
   $(overlay).hide();
+});
+
+
+
+  $(document).ready(function() {
+    $('.menu_pics').hide().delay(800).fadeIn(3000);
 });
 
 var myIndex = 0;
