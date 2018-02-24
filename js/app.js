@@ -49,3 +49,12 @@ function carousel() {
     x[myIndex-1].style.display = "block";
     setTimeout(carousel, 4000); // Change image every 2 seconds
 }
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
