@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title> Gallery</title>
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Fjalla+One" rel="stylesheet">
@@ -8,21 +9,22 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet"  href="css/main.css">
     <link rel="stylesheet"  href="css/responsive.css">
-
   </head>
   <body>
       <header>
 
-        <nav id ="menu">
+        <div class="topnav" id="myTopnav">
           <div class="navleft">
             <a href ="index.html"> Lee-Way Photography </a>
           </div>
-          <ul>
-            <li><a href ="index.html" class ="selected"> Leeway </a> </li>
-            <li><a href = "gallery.html"> Gallery </a> </li>
-            <li><a href = "about.html"> About </a> </li>
-          </ul>
-        </nav>
+
+            <a href = "gallery.html"> Gallery </a>
+            <a href = "about.html"> About </a>
+            <a href = "contact.html"> Contact </a>
+
+            <a href="javascript:void(0);" style="font-size:30px;" class="icon"
+            onclick="myFunction()">&#9776;</a>
+        </div>
       </header>
 
 
