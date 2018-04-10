@@ -120,7 +120,7 @@ background-size: cover;
 }
 
 .menu_pics_small{
-  background-image: url("../images/jasmine.jpg");
+  background-image: url("../images/phoneRecord.jpg");
   background-size: cover;
   grid-row:  span 1;
   grid-column: span 1;
