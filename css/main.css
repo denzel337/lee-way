@@ -21,8 +21,8 @@ h3 {
 
 #gallery li {
 
-  width: 45%;
-  margin: 2.5%;
+  /* width: 45%; */
+  /* margin: 2.5%; */
   background-color: #f4f4f4;
   color: #bdc3c7;
   text-align: center;
@@ -42,23 +42,25 @@ h3 {
 }
 
 #gallery {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows:repeat(6, 1fr);
+  grid-gap: 10px;
+  height: 100%;
 }
 
 
 .menu_pics:hover i {
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-21%, 64%) scale(1);
   transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 
 .menu_pics i{
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   border-radius: 50%;
@@ -72,9 +74,57 @@ h3 {
   transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .menu_pics{
-  position: relative;
-  overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 35px;
 }
+
+.menu_pics.medium{
+background-image: url("../images/oscarProm.jpg");
+background-size: cover;
+  grid-row:span 2 ;
+  grid-column: span 2;
+  margin-top: 40px;
+}
+
+
+
+.menu_pics.large{
+  background-image: url("../images/nadia3.jpg");
+  background-size: cover;
+  grid-row:  span 3;
+  grid-column: span 3;
+  margin-top: 40px;
+}
+
+.menu_pics.small{
+  background-image: url("../images/Darren9.jpg");
+  background-size: cover;
+  grid-row:  span 1;
+  grid-column: span 1;
+}
+.menu_pics.tall{
+  background-image: url("../images/fly_fashion.jpg");
+  background-size: cover;
+  grid-row:  span 3;
+  grid-column: span 2;
+
+}
+
+.menu_pics.wide{
+  background-image: url("../images/band.jpg");
+  background-size: cover;
+  grid-row:  span 2;
+  grid-column: span 3;
+}
+
+.menu_pics_small{
+  background-image: url("../images/phoneRecord.jpg");
+  background-size: cover;
+  grid-row:  span 1;
+  grid-column: span 1;
+
 
 h1 {
   font-family: 'Fjalla One', sans-serif;
@@ -219,6 +269,23 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  .menu_pics.medium, .menu_pics.large, .menu_pics.wide,
+  .menu_pics.tall, .menu_pics.small, .menu_pics_small {
+    padding: 94px;
+    margin-top: 0;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #gallery {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -268,6 +335,7 @@ body {
   padding: 10px 0px 0px 10px;
   overflow: hidden;
   position: relative;
+  color: black;
 }
 
 .topnav a:hover {
