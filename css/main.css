@@ -113,7 +113,7 @@ background-size: cover;
 }
 
 .menu_pics.wide{
-  background-image: url("../images/band.jpg");
+  background-image: url("../images/phoneRecord.jpg");
   background-size: cover;
   grid-row:  span 2;
   grid-column: span 3;
@@ -124,7 +124,6 @@ background-size: cover;
   background-size: cover;
   grid-row:  span 1;
   grid-column: span 1;
-
 }
 h1 {
   font-family: 'Fjalla One', sans-serif;
