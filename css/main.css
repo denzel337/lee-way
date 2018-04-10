@@ -113,14 +113,14 @@ background-size: cover;
 }
 
 .menu_pics.wide{
-  background-image: url("../images/phoneRecord.jpg");
+  background-image: url("../images/phone.jpg");
   background-size: cover;
   grid-row:  span 2;
   grid-column: span 3;
 }
 
 .menu_pics_small{
-  background-image: url("../images/phoneRecord.jpg");
+  background-image: url("../images/phone.jpg");
   background-size: cover;
   grid-row:  span 1;
   grid-column: span 1;
